@@ -17,7 +17,7 @@ function clearContent() {
 
 // Render a module
 function render(moduleFn) {
-    clearContent();              // wipe old content
+    clearContent();        
     content.appendChild(moduleFn());
 }
 
