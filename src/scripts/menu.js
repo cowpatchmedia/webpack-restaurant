@@ -6,13 +6,13 @@ export default function loadMenu() {
 
     const menuItems = [
         {
-            name: "chicken and waffles",
+            name: "chicken and waffles - $16",
             description: "A savory and sweet combo with a crispy crunch and maple glaze! Add kimchi for $1 (chef's favorite)",
             image: chickenWafflesImg,
         },
         {
-            name: "classic breakfast",
-            description: "Two eggs (your choice), bacon or sausage, hasbrowns, and toast with our homemade jam (ask for our daily specials)",
+            name: "classic breakfast) - $12",
+            description: "Two eggs (your choice), bacon or sausage, hasbrowns, and toast with our homemade jam (ask for our daily specials",
             image: classicImg,
         }
     ];
