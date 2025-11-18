@@ -1,5 +1,3 @@
-export const greeting = "Hello Home!";
-
 export default function loadHome() {
     const container = document.createElement("div");
 

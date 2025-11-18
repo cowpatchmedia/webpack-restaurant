@@ -1,10 +1,8 @@
-import {greeting} from "./home.js";
 import loadHome from "./home.js";
+import loadAbout from "./about.js";
 
 import "./../stylesheets/styles.css";
 import "./../stylesheets/modern-normalize.css";
-
-console.log(greeting);
 
 const content = document.getElementById("content");
 
@@ -27,5 +25,5 @@ document.getElementById("menu-btn").addEventListener("click", () => {
 });
 
 document.getElementById("about-btn").addEventListener("click", () => {
-    render(loadHome);
+    render(loadAbout);
 });
