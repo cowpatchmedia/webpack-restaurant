@@ -8,9 +8,16 @@ import "./../stylesheets/modern-normalize.css";
 
 const content = document.getElementById("content");
 
-// render old content
+// Clear all children
+function clearContent() {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+}
+
+// Render a module
 function render(moduleFn) {
-    content.innerHTML = "";       // wipe old content
+    clearContent();              // wipe old content
     content.appendChild(moduleFn());
 }
 

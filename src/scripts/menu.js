@@ -7,7 +7,7 @@ export default function loadMenu() {
     const menuItems = [
         {
             name: "chicken and waffles",
-            description: "A savory and sweet combo with a crispy, crunch and maple glaze! Add kimchi for $1 (chef's favorite)",
+            description: "A savory and sweet combo with a crispy crunch and maple glaze! Add kimchi for $1 (chef's favorite)",
             image: chickenWafflesImg,
         },
         {
