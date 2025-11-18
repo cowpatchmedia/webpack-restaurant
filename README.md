@@ -13,14 +13,8 @@ Photo by <a href="https://unsplash.com/@covertnine?utm_source=unsplash&utm_mediu
 classic:
 Photo by <a href="https://unsplash.com/@snappr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Snappr</a> on <a href="https://unsplash.com/photos/a-white-plate-topped-with-eggs-bacon-and-toast-vN0UyWCeZJs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       
+a new project to build a restaurant page. the html/js/css related to website creation was very simple as this allowed a wide range of creativity making the design
+easier than following set specs. 
 
-
-brunch (all day):
-chicken and waffles
-    A savory and sweet combo with a crispy, crunch and maple glaze! Add kimchi for $1 (chef's favorite)
-
-regular classic
-    Two eggs (your choice), bacon or sausage, hasbrowns, and toast with our homemade jam (ask for our daily specials)
-
-
+the real challenge was the webpack but by carefully following the tutorial I made this without breaking anything. very interesting to set up a web page this way. 
 
