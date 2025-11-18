@@ -11,11 +11,6 @@ export default function loadMenu() {
             name: "Margherita Pizza",
             description: "Classic pizza with tomato, mozzarella, and basil.",
             image: "./../media/margherita.jpg"
-        },
-        {
-            name: "Tiramisu",
-            description: "Coffee-flavored Italian dessert.",
-            image: "./../media/tiramisu.jpg"
         }
     ];
 
