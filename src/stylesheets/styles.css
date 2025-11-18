@@ -12,6 +12,7 @@ body, html {
 }
 
 #left-panel{
+    background-image: url("./../media/restaurant.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,14 +57,14 @@ nav button:hover {
     height: 100%;
 }
 
-#home-title {
+#content-title {
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
 
-#home-body {
+#content-body {
     font-size: 1.15rem;
     line-height: 1.6;
     max-width: 550px;
