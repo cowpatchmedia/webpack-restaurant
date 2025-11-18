@@ -11,7 +11,7 @@ export default function loadMenu() {
             image: chickenWafflesImg,
         },
         {
-            name: "classic breakfast) - $12",
+            name: "classic breakfast - $12",
             description: "Two eggs (your choice), bacon or sausage, hasbrowns, and toast with our homemade jam (ask for our daily specials",
             image: classicImg,
         }
