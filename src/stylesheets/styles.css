@@ -1,18 +1,24 @@
+body, html {
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    color: #333;
+}
+
 .layout {
     display: grid;
     grid-template-columns: 1fr 2fr; /* left 1/3, right 2/3 */
+    width: 100vw;
+    height: 100vh; 
 }
 
-.sidebar-img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 33.333%;
-    height: 100vh;
-    object-fit: cover;
+#left-panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .main-container {
-    margin-left: 33.333%;
+    overflow-y: auto;
     padding: 20px;
 }
