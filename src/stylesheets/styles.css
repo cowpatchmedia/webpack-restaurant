@@ -15,10 +15,57 @@ body, html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    filter: brightness(0.9);
 }
 
 .main-container {
-    overflow-y: auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdddd;
+}
+
+header {
+    padding: 20px 40px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 18px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: 0.25s ease;
+    border-radius: 6px;
+}
+
+nav button:hover {
+    background: #eee;
+}
+
+#content {
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#home-title {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+#home-body {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    max-width: 550px;
+    opacity: 0.9;
 }
