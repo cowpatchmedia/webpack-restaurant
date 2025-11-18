@@ -1,16 +1,19 @@
+import chickenWafflesImg from "./../media/chickenwaffles.jpg";
+import classicImg from "./../media/classic.jpg";
+
 export default function loadMenu() {
     const container = document.createElement("div");
 
     const menuItems = [
         {
-            name: "Spaghetti Carbonara",
-            description: "Creamy pasta with pancetta and parmesan.",
-            image: "./../media/carbonara.jpg"
+            name: "chicken and waffles",
+            description: "A savory and sweet combo with a crispy, crunch and maple glaze! Add kimchi for $1 (chef's favorite)",
+            image: chickenWafflesImg,
         },
         {
-            name: "Margherita Pizza",
-            description: "Classic pizza with tomato, mozzarella, and basil.",
-            image: "./../media/margherita.jpg"
+            name: "classic breakfast",
+            description: "Two eggs (your choice), bacon or sausage, hasbrowns, and toast with our homemade jam (ask for our daily specials)",
+            image: classicImg,
         }
     ];
 
